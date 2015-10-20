@@ -14,6 +14,6 @@
     <preference name="Orientation" value="portrait"/>
     <preference name="Fullscreen" value="true"/>
 
-    <cocoon:plugin name="com.ludei.webviewlus.ios"/>
-    <cocoon:plugin name="com.ludei.webviewlus.android"/>
+    <cocoon:plugin name="com.ludei.webviewplus.ios"/>
+    <cocoon:plugin name="com.ludei.webviewplus.android"/>
 </widget>
