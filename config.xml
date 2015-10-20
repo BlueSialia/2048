@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget id="io.cocoon.sample.box2d" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cocoon="http://cocoon.io/ns/1.0">
-    <name>Box2D</name>
+<widget id="io.cocoon.sample.2048" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cocoon="http://cocoon.io/ns/1.0">
+    <name>2048</name>
     <description>
-Cocoon Canvas+ includes a native C++ bridge of Box2D, and it exposes part of its functionality to JS via the box2dweb API. This simple test shows how to use it to get native performance on 2D physics simulation.
+2048 game with Cocoon.io using https://github.com/gabrielecirulli/2048 as base.
     </description>
 
     <!-- Shown in the wizard -->
@@ -11,9 +11,9 @@ Cocoon Canvas+ includes a native C++ bridge of Box2D, and it exposes part of its
     <content src="index.html" />
     <access origin="*"/>
     
-    <preference name="Orientation" value="landscape"/>
+    <preference name="Orientation" value="portrait"/>
     <preference name="Fullscreen" value="true"/>
 
-    <cocoon:plugin name="com.ludei.canvasplus.ios"/>
-    <cocoon:plugin name="com.ludei.canvasplus.android"/>
+    <cocoon:plugin name="com.ludei.webviewlus.ios"/>
+    <cocoon:plugin name="com.ludei.webviewlus.android"/>
 </widget>
